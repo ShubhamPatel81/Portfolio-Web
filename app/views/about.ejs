@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+  <!-- head section -->
+  <%- include ('partials/head.ejs') %>
+  <body>
+    <!-- header section -->
+    <%- include ('partials/main_nav.ejs') %>
+
+    <main class="container c-container mt-5 mb-5 pb-5">
+      <section
+        class="d-flex flex-wrap justify-content-center justify-content-md-between"
+      >
+        <picture class="flex-shrink-0 c-avatar order-md-1 mb-3 mb-md-0">
+          <img
+            src="/images/profile.jpg"
+            alt="my picture"
+            width="100%"
+            class="object-fit-cover rounded-circle"
+          />
+        </picture>
+        <article class="c-bio-container order-md-0 text-center text-md-start">
+          <h1 class="display-4">About Me</h1>
+          <ul class="lead list-style-none mt-4 text-body">
+            <li>
+              Hi! I'm Shubham Patel, a passionate <b>B.Tech.</b> student at
+              <b>Jain Deemed-to-be University, Bangalore,</b> specializing in
+              <b> Computer Science </b>. I have a strong interest in backend
+              development, particularly in <b>Java and Spring Boot</b>, and am
+              also exploring the exciting field of machine learning. With
+              hands-on experience in building applications using technologies
+              like <br />
+              <b>Languages: </b>
+              <i>HTML, CSS, JavaScript, Java, Basic of Python </i>
+              <br />
+              <b>Frameworks: </b>
+              <i
+                >Spring Boot, Servlet, Spring MVC, Spring Security,Basic React,
+                Tailwind CSS, Bootstrap</i
+              >
+              <br />
+              <b>Databases: </b>
+              <i>MySQL, MongoDB</i>
+              <br />
+              <b>Tools:</b><i>Git, Maven, Postman</i>
+              <br />
+              <b>Operating Systems:</b><i> Linux, Windows</i>
+              <br />
+              <b>Other:</b>
+              <i> RESTful API design, JPA/Hibernate, Spring Security</i>
+              <br />
+              I’m always eager to solve real-world problems through code. My
+              current goal is to secure a rewarding internship where I can
+              further hone my skills and contribute to impactful projects.
+            </li>
+          </ul>
+          <a href="/file/resume.pdf" class="btn btn-light mt-4" download
+            >Click To Download Resume</a
+          >
+        </article>
+      </section>
+    </main>
+
+    <!--footer section-->
+    <%- include ('partials/footer.ejs') %>
+
+    <!--script section-->
+    <%- include ('partials/scripts.ejs') %>
+  </body>
+</html>
